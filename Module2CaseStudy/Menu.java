@@ -8,30 +8,30 @@ public class Menu {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("***************************************************************");
+          System.out.println("***************************************************************");
             System.out.println("*** CHÀO MỪNG BẠN ĐÃ ĐẾN VỚI CHƯƠNG TRÌNH QUẢN LÝ SINH VIÊN ***");
-            System.out.println("*** 1.Thêm sinh viên - - - - - - - - - - - - - - - - - - - - ***");
-            System.out.println("*** 2.Sửa sinh viên - - - - - - - - - - - - - - - - - - - - -***");
-            System.out.println("*** 3.Xóa sinh viên - - - - - - - - - - - - - - - - - - - - -***");
-            System.out.println("*** 4.Sắp xếp sinh viên - - - - - - - - - - - - - - - - - - -***");
-            System.out.println("*** 5.Tìm sinh viên theo id - - - - - - - - - - - - - - - - -***");
-            System.out.println("*** 6.Tìm sinh viên gần đúng theo tên - - - - - - - - - - - -***");
-            System.out.println("*** 7.Ghi - - - - - - - - - - - - - - - - - - - - - - - - - -***");
-            System.out.println("*** 8.Đọc - - - - - - - - - - - - - - - - - - - - - - - - - -***");
-            System.out.println("*** 9.Hiển thị - - - - - - - - - - - - - - - - - - - - - - - ***");
-            System.out.println("*** 10.Điểm trung bình sinh viên - - - - - - - - - - - - - - ***");
-            System.out.println("*** 11.Học lực của sinh viên - - - - - - - - - - - - - - - - ***");
-            System.out.println("*** 12.Exit  - - - - - - - - - - - - - - - - - - - - - - - - ***");
-            System.out.println("****************************************************************");
+            System.out.println("* - 1.Thêm sinh viên - - - - - - - - - - - - - - - - - - - -***");
+            System.out.println("* - 2.Sửa sinh viên - - - - - - - - - - - - - - - - - - - - ***");
+            System.out.println("* - 3.Xóa sinh viên - - - - - - - - - - - - - - - - - - - - ***");
+            System.out.println("* - 4.Sắp xếp sinh viên - - - - - - - - - - - - - - - - - - ***");
+            System.out.println("* - 5.Tìm sinh viên theo id - - - - - - - - - - - - - - - - ***");
+            System.out.println("* - 6.Tìm sinh viên gần đúng theo tên - - - - - - - - - - - ***");
+            System.out.println("* - 7.Ghi - - - - - - - - - - - - - - - - - - - - - - - - - ***");
+            System.out.println("* - 8.Đọc - - - - - - - - - - - - - - - - - - - - - - - - - ***");
+            System.out.println("* - 9.Hiển thị - - - - - - - - - - - - - - - - - - - - - - -***");
+            System.out.println("* - 10.Điểm trung bình sinh viên - - - - - - - - - - - - - -***");
+            System.out.println("* - 11.Học lực của sinh viên - - - - - - - - - - - - - - - -***");
+            System.out.println("* - 12.Exit  - - - - - - - - - - - - - - - - - - - - - - - -***");
+            System.out.println("***************************************************************");
             System.out.println("===> MỜI BẠN NHẬP XUỐNG ĐÂY : ");
             int choice = Integer.parseInt(scanner.nextLine());
             switch (choice) {
                 case 1:
                     while (true) {
-                        System.out.println("----- HÃY CHỌN SINH VIÊN THEO KHỐI BẠN MONG MUỐN -----");
-                        System.out.println("----- 1.Khối A ---------------------------------------");
-                        System.out.println("----- 2.Khối B ---------------------------------------");
-                        System.out.println("----- 3.Exit -----------------------------------------");
+                        System.out.println("--- HÃY CHỌN SINH VIÊN THEO KHỐI BẠN MONG MUỐN ---");
+                        System.out.println("--- 1.Khối A -------------------------------------");
+                        System.out.println("--- 2.Khối B -------------------------------------");
+                        System.out.println("--- 3.Exit ---------------------------------------");
                         int choose = Integer.parseInt(scanner.nextLine());
                         if (choose == 3) {
                             break;
