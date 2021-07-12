@@ -9,7 +9,7 @@ public class Menu {
 
         while (true) {
             System.out.println("***************************************************************");
-            System.out.println("*** CHÀO MỪNG BẠN ĐÃ ĐẾN VỚI CHƯƠNG TRÌNH QUẢN LÝ SINH VIÊN ***");
+            System.out.println("***<CHÀO MỪNG BẠN ĐÃ ĐẾN VỚI CHƯƠNG TRÌNH QUẢN LÝ SINH VIÊN>***");
             System.out.println("* - 1.Thêm sinh viên - - - - - - - - - - - - - - - - - - - - -*");
             System.out.println("* - 2.Sửa sinh viên - - - - - - - - - - - - - - - - - - - - - *");
             System.out.println("* - 3.Xóa sinh viên - - - - - - - - - - - - - - - - - - - - - *");
@@ -28,10 +28,11 @@ public class Menu {
             switch (choice) {
                 case 1:
                     while (true) {
-                        System.out.println("--- HÃY CHỌN SINH VIÊN THEO KHỐI BẠN MONG MUỐN ---");
+                        System.out.println("--< HÃY CHỌN SINH VIÊN THEO KHỐI BẠN MONG MUỐN >--");
                         System.out.println("--- 1.Khối A -------------------------------------");
                         System.out.println("--- 2.Khối B -------------------------------------");
                         System.out.println("--- 3.Exit ---------------------------------------");
+                        System.out.println("===> NHẬP ĐỂ TIẾP TỤC : ");
                         int choose = Integer.parseInt(scanner.nextLine());
                         if (choose == 3) {
                             break;
