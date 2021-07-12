@@ -11,8 +11,8 @@ public class Login {
     static Scanner sc = new Scanner(System.in);
     public static void login() throws Exception {
         while (true) {
-              System.out.println("*******************************************************");
-            System.out.println("*          CHƯƠNG TRÌNH QUẢN LÝ SINH VIÊN             *");
+            System.out.println("*******************************************************");
+            System.out.println("*---------< CHƯƠNG TRÌNH QUẢN LÝ SINH VIÊN >----------*");
             System.out.println("*- - - - - - - - - - - - - - - - - - - - - - - - - - -*");
             System.out.println("*- - - - - - - - - 1. Đăng nhập - - - - - - - - - - - *");
             System.out.println("*- - - -  - - - -  2. Đăng ký - - - - - - - - - - - - *");
